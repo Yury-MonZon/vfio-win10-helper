@@ -5,6 +5,7 @@ These little scripts can fix your black screen after VM shutdown.
 How it works:
 
 On shutdown - it disables GPU driver
+
 On startup - guess what? It does the opposite thing :-D
 
 
