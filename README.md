@@ -19,7 +19,7 @@ Installation:
    Do those stepss:
    - Now go to Computer Configuration\Windows Settings\Scripts(Startup/Shutdown).
    - Double click on Startup, Add, select enable.cmd file.
-   - Do the same for Shutdown.
+   - Double click on Shutdown, Add, select disable.cmd file.
 5. Shutdown your VM and if you see your screen flicker - congrats! 
 
 Now you can enjoy your GPU passthrough setup without rebooting after VM shutdown.
