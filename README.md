@@ -1,12 +1,15 @@
-#GPU passthrough Win10 helper
+GPU passthrough Win10 helper
 
 These little scripts can fix your black screen after VM shutdown.
 
-#How it works:
+How it works:
+
 On shutdown - it disables GPU driver
 On startup - guess what? It does the opposite thing :-D
 
-#Installation
+
+Installation:
+
 0. Make a snapshot of your VM and run it.
 1. Run dump_device_list.cmd 
 2. Open devices.txt file in your preferred text editor and find (ctrl+F) you GPU card and it's devices (audio, usb, etc).
